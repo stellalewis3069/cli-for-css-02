@@ -137,3 +137,4 @@ def save_model(program, model_path, epoch_id, prefix='ppcls'):
     model_prefix = os.path.join(model_path, prefix)
     paddle.static.save(program, model_prefix)
     logger.info("Already save model in {}".format(model_path))
+# c6be27
